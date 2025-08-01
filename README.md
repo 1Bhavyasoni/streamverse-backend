@@ -64,14 +64,6 @@ streamverse-backend/
 
 
 ---
-
-Ah, I see what’s happening — the issue is that you’re mixing raw text with code blocks incorrectly. You need to wrap command-line commands and code inside triple backticks (```), and markdown sections should not be inside a code block unless it’s actual code or terminal commands.
-
-Here’s a fully clean, copy-paste ready Markdown version of your README.md section that will render exactly the way you want on GitHub:
-
-⸻
-
-
 ## 🔧 Run Locally
 
 ```bash
@@ -79,36 +71,33 @@ git clone https://github.com/1Bhavyasoni/streamverse-backend.git
 cd streamverse-backend
 npm install
 npm start
-
-
-⸻
-
-⚙️ Update Frontend API Endpoint
-
-In /src/utils/constant.js file of your frontend, replace the line with:
-
-export const API_END_POINT = "https://streamverse-backend-nw9k.onrender.com/api/v1/user";
-
-
-⸻
-
-🛠️ Environment Variables
-
-Create a .env file in your backend folder and add:
-
-PORT=8080
-MONGO_URI=your_mongodb_url
-JWT_SECRET=your_secret
-
-
-⸻
-
-👤 Developer
-
-Bhavya Soni
-🔗 LinkedIn
+```
 
 ---
 
+## ⚙️ Update Frontend API Endpoint
 
+**In `/src/utils/constant.js` file of your frontend**, replace the line with:
 
+```js
+export const API_END_POINT = "https://streamverse-backend-nw9k.onrender.com/api/v1/user";
+```
+
+---
+
+## 🛠️ Environment Variables
+
+Create a `.env` file in your backend folder and add:
+
+```env
+PORT=8080
+MONGO_URI=your_mongodb_url
+JWT_SECRET=your_secret
+```
+
+---
+
+## 👤 Developer
+
+**Bhavya Soni**  
+[🔗 LinkedIn](https://www.linkedin.com/in/bhavya-soni-9684b3229/)
