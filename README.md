@@ -75,8 +75,8 @@ npm start
 ---
 
 
-**⚙️ Update Frontend API Endpoint**
-In /src/utils/constant.js file of your frontend:
+⚙️ Update Frontend API Endpoint
+**In /src/utils/constant.js file of your frontend**
 export const API_END_POINT = "https://streamverse-backend-nw9k.onrender.com/api/v1/user";
 ---
 
