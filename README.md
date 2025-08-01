@@ -65,6 +65,13 @@ streamverse-backend/
 
 ---
 
+Ah, I see what’s happening — the issue is that you’re mixing raw text with code blocks incorrectly. You need to wrap command-line commands and code inside triple backticks (```), and markdown sections should not be inside a code block unless it’s actual code or terminal commands.
+
+Here’s a fully clean, copy-paste ready Markdown version of your README.md section that will render exactly the way you want on GitHub:
+
+⸻
+
+
 ## 🔧 Run Locally
 
 ```bash
@@ -72,19 +79,14 @@ git clone https://github.com/1Bhavyasoni/streamverse-backend.git
 cd streamverse-backend
 npm install
 npm start
----
 
-
-Sure! Here’s the correctly formatted Markdown code you can directly paste into your README.md file for that section — it includes proper code blocks and formatting:
 
 ⸻
 
+⚙️ Update Frontend API Endpoint
 
-## ⚙️ Update Frontend API Endpoint
+In /src/utils/constant.js file of your frontend, replace the line with:
 
-**In `/src/utils/constant.js` file of your frontend**, replace the line with:
-
-```js
 export const API_END_POINT = "https://streamverse-backend-nw9k.onrender.com/api/v1/user";
 
 
@@ -107,4 +109,6 @@ Bhavya Soni
 🔗 LinkedIn
 
 ---
+
+
 
