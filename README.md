@@ -75,19 +75,36 @@ npm start
 ---
 
 
-⚙️ Update Frontend API Endpoint
-**In /src/utils/constant.js file of your frontend**
+Sure! Here’s the correctly formatted Markdown code you can directly paste into your README.md file for that section — it includes proper code blocks and formatting:
+
+⸻
+
+
+## ⚙️ Update Frontend API Endpoint
+
+**In `/src/utils/constant.js` file of your frontend**, replace the line with:
+
+```js
 export const API_END_POINT = "https://streamverse-backend-nw9k.onrender.com/api/v1/user";
----
+
+
+⸻
 
 🛠️ Environment Variables
+
+Create a .env file in your backend folder and add:
 
 PORT=8080
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret
----
+
+
+⸻
 
 👤 Developer
 
 Bhavya Soni
-[LinkedIn](https://www.linkedin.com/in/bhavya-soni-9684b3229/)
+🔗 LinkedIn
+
+---
+
