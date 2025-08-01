@@ -72,6 +72,7 @@ git clone https://github.com/1Bhavyasoni/streamverse-backend.git
 cd streamverse-backend
 npm install
 npm start
+---
 
 ## Update /src/utils/constant.js with your backend:
 export const API_END_POINT = "https://streamverse-backend-nw9k.onrender.com/api/v1/user";
@@ -82,7 +83,8 @@ PORT=8080
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret
 
-## 👤 Developer
 
-**Bhavya Soni**  
-[LinkedIn](https://www.linkedin.com/in/bhavya-soni-9684b3229/)
+👤 Developer
+
+Bhavya Soni
+LinkedIn
