@@ -73,17 +73,16 @@ cd streamverse-backend
 npm install
 npm start
 
-Update /src/utils/constant.js with your backend:
+## Update /src/utils/constant.js with your backend:
 export const API_END_POINT = "https://streamverse-backend-nw9k.onrender.com/api/v1/user";
 
-Set your .env:
+## Set your .env:
 
 PORT=8080
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret
 
-👤 Author
+## 👤 Developer
 
-Bhavya Soni
-🔗 LinkedIn
-🧠 Frontend Repo
+**Bhavya Soni**  
+[LinkedIn](https://www.linkedin.com/in/bhavya-soni-9684b3229/)
